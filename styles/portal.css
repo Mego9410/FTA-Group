@@ -85,14 +85,14 @@ img{max-width:100%;display:block}
 .app-go .arw{transition:transform var(--dur) var(--ease)}
 .app-card:hover .app-go .arw{transform:translateX(4px)}
 
-/* ---------------- STATS BAND (dark) ---------------- */
-.stats{background:var(--ink-pure);color:#fff;position:relative}
+/* ---------------- STATS BAND (light, on-brand) ---------------- */
+.stats{background:var(--gold-tint)}
 .stats .container{padding-top:var(--sp-16);padding-bottom:var(--sp-16)}
 .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
 .stat{text-align:center;padding:6px 16px}
-.stat + .stat{border-left:1px solid rgba(255,255,255,.12)}
-.stat .num{font-family:var(--font-serif);font-weight:600;font-size:clamp(36px,4.6vw,52px);line-height:1;color:var(--gold);letter-spacing:-.01em}
-.stat .lab{margin-top:10px;font-size:13.5px;font-weight:600;color:rgba(255,255,255,.72)}
+.stat + .stat{border-left:1px solid rgba(180,134,42,.22)}
+.stat .num{font-family:var(--font-serif);font-weight:600;font-size:clamp(36px,4.6vw,52px);line-height:1;color:var(--gold-deep);letter-spacing:-.01em}
+.stat .lab{margin-top:10px;font-size:13.5px;font-weight:600;color:var(--fg-2)}
 
 /* ---------------- FOOTER ---------------- */
 .footer{background:var(--ink-pure);color:#fff;padding:var(--sp-20) 0 var(--sp-16);border-top:1px solid rgba(255,255,255,.08)}
@@ -130,7 +130,7 @@ img{max-width:100%;display:block}
   .app-logo{height:120px;padding:22px 24px}
   .stats-grid{grid-template-columns:1fr;gap:0}
   .stat{padding:18px 0}
-  .stat + .stat{border-left:0;border-top:1px solid rgba(255,255,255,.12)}
+  .stat + .stat{border-left:0;border-top:1px solid rgba(180,134,42,.22)}
   .footer-cols{grid-template-columns:1fr}
 }
 
