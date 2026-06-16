@@ -1,0 +1,11 @@
+# Editor / tooling
+.cursor/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
