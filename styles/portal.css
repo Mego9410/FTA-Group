@@ -68,11 +68,12 @@ img{max-width:100%;display:block}
 .app-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-md);border-color:var(--gold)}
 .app-card:hover::after{transform:scaleX(1)}
 
-/* brand logo well */
+/* brand logo well — uniform white across every card */
 .app-logo{height:138px;flex:none;border-radius:var(--r-md);background:#fff;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;gap:16px;padding:26px 30px;overflow:hidden}
-.app-logo img{max-height:86px;max-width:90%;width:auto;object-fit:contain}
-.app-logo--dark{background:var(--ink-pure);border-color:transparent;box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
-.app-logo--dark img{max-height:94px}
+.app-logo img{max-height:88px;max-width:90%;width:auto;object-fit:contain}
+/* gold/silver marks built for a dark canvas ship as self-contained rounded
+   dark badges (baked into the PNG) that sit on the same white well */
+.app-logo--dark img{max-height:112px;max-width:92%}
 
 /* favicon + wordmark lockup for utility apps */
 .app-favmark{height:46px;width:auto;max-width:54px;object-fit:contain;border-radius:10px;flex:none}
